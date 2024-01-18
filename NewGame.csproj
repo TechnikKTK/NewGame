@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Inventory_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Inventory_Form.Designer.cs">
+      <DependentUpon>Inventory_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu_Form.Designer.cs">
+      <DependentUpon>MainMenu_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,6 +66,12 @@
     <Compile Include="UI\UImap.Designer.cs">
       <DependentUpon>UImap.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Inventory_Form.resx">
+      <DependentUpon>Inventory_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu_Form.resx">
+      <DependentUpon>MainMenu_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -68,6 +80,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -84,6 +97,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Raw\History.txt" />
+    <None Include="Resources\6c4f8d45523437.583401ef4ed25.jpg" />
+    <None Include="Resources\Quests_png.png" />
+    <None Include="Resources\bag_png.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
