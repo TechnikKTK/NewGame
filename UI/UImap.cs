@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace NewGame.UI
 {
@@ -60,10 +61,12 @@ namespace NewGame.UI
             map = Graphics.FromImage(canvas);
             var path = Path.Combine(GameSettings.AppPath, GameSettings.ImagesPath, "hero.png");
             var pathBlank = Path.Combine(GameSettings.AppPath, GameSettings.ImagesPath, "blank.png");
+            var pathLevel = Path.Combine(GameSettings.AppPath, GameSettings.ImagesPath, "map.png");
 
             positon = new Point(pictMap.Width / 2, pictMap.Height / 2);
-            
+
             hero = new Bitmap(path);
+            level_map = new Bitmap(pathLevel);
             blank = new Bitmap(pathBlank);
             
             map.DrawImage(hero, positon);
@@ -72,69 +75,85 @@ namespace NewGame.UI
 
         async Task GoUp()
         {
-            Point next = new Point(0, -hero.Height);
-            //CheckPixel(next);
-            
-            await Task.Delay(GameSettings.StepDelay);
-            map.DrawImage(blank, positon);
-            positon.Offset(new Point(0, -hero.Height));
-            map.DrawImage(hero, positon);
+            Point next = new Point(positon.X, positon.Y - hero.Height);
+            var color = CheckPixel(next);
+            if (color.Name == "ffffffff")
+            {
+
+                await Task.Delay(GameSettings.StepDelay);
+                map.DrawImage(blank, positon);
+                positon.Offset(new Point(0, -hero.Height));
+                map.DrawImage(hero, positon);
+            }
+            else
+            {
+                map.FillRectangle(new SolidBrush(color), new Rectangle(next, new Size(10, 10)));
+            }
             pictMap.Image = canvas;
+
         }
 
-        private void CheckPixel(Point next)
+        private Color CheckPixel(Point next)
         {
-            try
-            {
-                var color = level_map.GetPixel(next.X, next.Y);
-                if (color != null)
-                {
-                    switch (color.ToArgb())
-                    {
-                        case 345:
-                            break;
-                        default:
-                            break;
-                    }
-                }
-            }
-            catch { }
+            return level_map.GetPixel(next.X, next.Y);
         }
 
         async Task GoDown()
         {
-            Point next = new Point(0, -hero.Height);
-            //CheckPixel(next);
+            Point next = new Point(positon.X, positon.Y + hero.Height);
+            var color = CheckPixel(next);
+            if (color.Name == "ffffffff")
+            {
 
-            await Task.Delay(GameSettings.StepDelay);
-            map.DrawImage(blank, positon);
-            positon.Offset(new Point(0, hero.Height));
-            map.DrawImage(hero, positon);
+                await Task.Delay(GameSettings.StepDelay);
+                map.DrawImage(blank, positon);
+                positon.Offset(new Point(0, hero.Height));
+                map.DrawImage(hero, positon);
+            }
+            else
+            {
+                map.FillRectangle(new SolidBrush(color), new Rectangle(next, new Size(10, 10)));
+            }
             pictMap.Image = canvas;
+
         }
 
         async Task GoRight()
         {
-            Point next = new Point(0, -hero.Height);
-            //CheckPixel(next);
-
-            await Task.Delay(GameSettings.StepDelay);
-            map.DrawImage(blank, positon);
-            positon.Offset(new Point(hero.Width, 0));
-            map.DrawImage(hero, positon);
+            Point next = new Point(positon.X + hero.Width, positon.Y);
+            var color = CheckPixel(next);
+            if (color.Name == "ffffffff")
+            {
+                await Task.Delay(GameSettings.StepDelay);
+                map.DrawImage(blank, positon);
+                positon.Offset(new Point(hero.Width, 0));
+                map.DrawImage(hero, positon);
+            }
+            else
+            {
+                map.FillRectangle(new SolidBrush(color), new Rectangle(next, new Size(10, 10)));
+            }
             pictMap.Image = canvas;
+
         }
 
         async Task GoLeft()
         {
-            Point next = new Point(0, -hero.Height);
-            //CheckPixel(next);
-
-            await Task.Delay(GameSettings.StepDelay);
-            map.DrawImage(blank, positon);
-            positon.Offset(new Point(-hero.Width, 0));
-            map.DrawImage(hero, positon);
+            Point next = new Point(positon.X - hero.Width, positon.Y);
+            var color = CheckPixel(next);
+            if (color.Name == "ffffffff")
+            {
+                await Task.Delay(GameSettings.StepDelay);
+                map.DrawImage(blank, positon);
+                positon.Offset(new Point(-hero.Width, 0));
+                map.DrawImage(hero, positon);
+            }
+            else
+            {
+                map.FillRectangle(new SolidBrush(color), new Rectangle(next, new Size(10,10)));
+            }
             pictMap.Image = canvas;
+
         }
     }
 }

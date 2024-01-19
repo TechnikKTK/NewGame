@@ -36,18 +36,21 @@
             // 
             this.pictMap.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictMap.Location = new System.Drawing.Point(0, 0);
+            this.pictMap.MaximumSize = new System.Drawing.Size(400, 400);
+            this.pictMap.MinimumSize = new System.Drawing.Size(400, 400);
             this.pictMap.Name = "pictMap";
-            this.pictMap.Size = new System.Drawing.Size(583, 351);
+            this.pictMap.Size = new System.Drawing.Size(400, 400);
             this.pictMap.TabIndex = 0;
             this.pictMap.TabStop = false;
             // 
-            // UImap
+            // UIMap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.pictMap);
-            this.Name = "UImap";
-            this.Size = new System.Drawing.Size(583, 351);
+            this.Name = "UIMap";
+            this.Size = new System.Drawing.Size(398, 398);
             ((System.ComponentModel.ISupportInitialize)(this.pictMap)).EndInit();
             this.ResumeLayout(false);
 

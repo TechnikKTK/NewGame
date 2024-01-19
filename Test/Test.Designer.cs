@@ -31,12 +31,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.uiMove1 = new NewGame.UI.UIMove();
             this.uiMap1 = new NewGame.UI.UIMap();
-            this.uImap2 = new NewGame.UI.UIMap();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(503, 279);
+            this.button1.Location = new System.Drawing.Point(119, 101);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 5;
@@ -57,27 +56,20 @@
             // 
             // uiMap1
             // 
-            this.uiMap1.Location = new System.Drawing.Point(12, 12);
+            this.uiMap1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uiMap1.Location = new System.Drawing.Point(332, 26);
             this.uiMap1.Name = "uiMap1";
-            this.uiMap1.Size = new System.Drawing.Size(566, 246);
-            this.uiMap1.TabIndex = 3;
-            // 
-            // uImap2
-            // 
-            this.uImap2.Location = new System.Drawing.Point(12, 12);
-            this.uImap2.Name = "uImap2";
-            this.uImap2.Size = new System.Drawing.Size(303, 218);
-            this.uImap2.TabIndex = 2;
+            this.uiMap1.Size = new System.Drawing.Size(398, 398);
+            this.uiMap1.TabIndex = 6;
             // 
             // Test
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(951, 584);
+            this.Controls.Add(this.uiMap1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.uiMove1);
-            this.Controls.Add(this.uiMap1);
-            this.Controls.Add(this.uImap2);
             this.Name = "Test";
             this.Text = "Test";
             this.ResumeLayout(false);
@@ -85,10 +77,8 @@
         }
 
         #endregion
-
-        private UI.UIMap uImap2;
-        private UI.UIMap uiMap1;
         private UI.UIMove uiMove1;
         private System.Windows.Forms.Button button1;
+        private UI.UIMap uiMap1;
     }
 }

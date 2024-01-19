@@ -134,6 +134,9 @@
     <Content Include="Images\hero.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\map.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Raw\History.txt" />
     <None Include="Resources\6c4f8d45523437.583401ef4ed25.jpg" />
     <None Include="Resources\Quests_png.png" />
