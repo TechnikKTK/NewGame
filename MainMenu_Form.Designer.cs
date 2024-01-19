@@ -109,7 +109,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::NewGame.Properties.Resources._6c4f8d45523437_583401ef4ed25;
-            this.pictureBox1.Location = new System.Drawing.Point(32, 27);
+            this.pictureBox1.Location = new System.Drawing.Point(32, 38);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(151, 187);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
