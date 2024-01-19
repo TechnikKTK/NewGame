@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.picture_Main_Character1 = new NewGame.UI.Picture_Main_Character();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -70,13 +69,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.SuspendLayout();
-            // 
-            // picture_Main_Character1
-            // 
-            this.picture_Main_Character1.Location = new System.Drawing.Point(26, 12);
-            this.picture_Main_Character1.Name = "picture_Main_Character1";
-            this.picture_Main_Character1.Size = new System.Drawing.Size(229, 366);
-            this.picture_Main_Character1.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -242,7 +234,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(326, 547);
+            this.ClientSize = new System.Drawing.Size(278, 547);
             this.Controls.Add(this.pictureBox16);
             this.Controls.Add(this.pictureBox17);
             this.Controls.Add(this.pictureBox18);
@@ -263,7 +255,6 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.picture_Main_Character1);
             this.Name = "Inventory_Form";
             this.Text = "Inventory_Form";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
