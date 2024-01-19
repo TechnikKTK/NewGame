@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NewGame
+namespace NewGame.UI
 {
-    public partial class Inventory_Form : Form
+    public partial class Picture_Main_Character : UserControl
     {
-        public Inventory_Form()
+        public Picture_Main_Character()
         {
             InitializeComponent();
         }
-
     }
 }
