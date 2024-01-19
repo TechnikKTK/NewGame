@@ -16,7 +16,7 @@ namespace NewGame
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Test.Test());
+            Application.Run(new Form1());
         }
     }
 }
