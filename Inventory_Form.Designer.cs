@@ -28,281 +28,282 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(125, 21);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(125, 293);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(125, 188);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(125, 114);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox4.TabIndex = 6;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(38, 162);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox5.TabIndex = 7;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(26, 384);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox6.TabIndex = 8;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(167, 384);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox7.TabIndex = 9;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Location = new System.Drawing.Point(120, 384);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox8.TabIndex = 10;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Location = new System.Drawing.Point(73, 384);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox9.TabIndex = 11;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(214, 384);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox10.TabIndex = 12;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Location = new System.Drawing.Point(214, 431);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox11.TabIndex = 17;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Location = new System.Drawing.Point(73, 431);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox12.TabIndex = 16;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Location = new System.Drawing.Point(120, 431);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox13.TabIndex = 15;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Location = new System.Drawing.Point(167, 431);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox14.TabIndex = 14;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Location = new System.Drawing.Point(26, 431);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox15.TabIndex = 13;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Location = new System.Drawing.Point(214, 478);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox16.TabIndex = 22;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Location = new System.Drawing.Point(73, 478);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox17.TabIndex = 21;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Location = new System.Drawing.Point(120, 478);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox18.TabIndex = 20;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Location = new System.Drawing.Point(167, 478);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox19.TabIndex = 19;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Location = new System.Drawing.Point(26, 478);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(41, 41);
-            this.pictureBox20.TabIndex = 18;
-            this.pictureBox20.TabStop = false;
-            // 
-            // Inventory_Form
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(323, 547);
-            this.Controls.Add(this.pictureBox16);
-            this.Controls.Add(this.pictureBox17);
-            this.Controls.Add(this.pictureBox18);
-            this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Name = "Inventory_Form";
-            this.Text = "Inventory_Form";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            this.ResumeLayout(false);
+			this.HelmetOnHero = new System.Windows.Forms.PictureBox();
+			this.BootsOnHero = new System.Windows.Forms.PictureBox();
+			this.LegsOnHero = new System.Windows.Forms.PictureBox();
+			this.ArmourOnHero = new System.Windows.Forms.PictureBox();
+			this.GunOnHero = new System.Windows.Forms.PictureBox();
+			this.HelmetOnInventory1 = new System.Windows.Forms.PictureBox();
+			this.BootsOnInventory1 = new System.Windows.Forms.PictureBox();
+			this.LegsOnInventory1 = new System.Windows.Forms.PictureBox();
+			this.ArmourOnInventory1 = new System.Windows.Forms.PictureBox();
+			this.GunOnInventory1 = new System.Windows.Forms.PictureBox();
+			this.GunOnInventory2 = new System.Windows.Forms.PictureBox();
+			this.ArmourOnInventory2 = new System.Windows.Forms.PictureBox();
+			this.LegsOnInventory2 = new System.Windows.Forms.PictureBox();
+			this.BootsOnInventory2 = new System.Windows.Forms.PictureBox();
+			this.HelmetOnInventory2 = new System.Windows.Forms.PictureBox();
+			this.GunOnInventory3 = new System.Windows.Forms.PictureBox();
+			this.ArmourOnInventory3 = new System.Windows.Forms.PictureBox();
+			this.LegsOnInventory3 = new System.Windows.Forms.PictureBox();
+			this.BootsOnInventory3 = new System.Windows.Forms.PictureBox();
+			this.HelmetOnInventory3 = new System.Windows.Forms.PictureBox();
+			((System.ComponentModel.ISupportInitialize)(this.HelmetOnHero)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.BootsOnHero)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.LegsOnHero)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.ArmourOnHero)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.GunOnHero)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.HelmetOnInventory1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.BootsOnInventory1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.LegsOnInventory1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.ArmourOnInventory1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.GunOnInventory1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.GunOnInventory2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.ArmourOnInventory2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.LegsOnInventory2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.BootsOnInventory2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.HelmetOnInventory2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.GunOnInventory3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.ArmourOnInventory3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.LegsOnInventory3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.BootsOnInventory3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.HelmetOnInventory3)).BeginInit();
+			this.SuspendLayout();
+			// 
+			// HelmetOnHero
+			// 
+			this.HelmetOnHero.Location = new System.Drawing.Point(125, 21);
+			this.HelmetOnHero.Name = "HelmetOnHero";
+			this.HelmetOnHero.Size = new System.Drawing.Size(41, 41);
+			this.HelmetOnHero.TabIndex = 3;
+			this.HelmetOnHero.TabStop = false;
+			// 
+			// BootsOnHero
+			// 
+			this.BootsOnHero.Location = new System.Drawing.Point(125, 293);
+			this.BootsOnHero.Name = "BootsOnHero";
+			this.BootsOnHero.Size = new System.Drawing.Size(41, 41);
+			this.BootsOnHero.TabIndex = 4;
+			this.BootsOnHero.TabStop = false;
+			
+			// 
+			// LegsOnHero
+			// 
+			this.LegsOnHero.Location = new System.Drawing.Point(125, 188);
+			this.LegsOnHero.Name = "LegsOnHero";
+			this.LegsOnHero.Size = new System.Drawing.Size(41, 41);
+			this.LegsOnHero.TabIndex = 5;
+			this.LegsOnHero.TabStop = false;
+			// 
+			// ArmourOnHero
+			// 
+			this.ArmourOnHero.Location = new System.Drawing.Point(125, 114);
+			this.ArmourOnHero.Name = "ArmourOnHero";
+			this.ArmourOnHero.Size = new System.Drawing.Size(41, 41);
+			this.ArmourOnHero.TabIndex = 6;
+			this.ArmourOnHero.TabStop = false;
+			// 
+			// GunOnHero
+			// 
+			this.GunOnHero.Location = new System.Drawing.Point(38, 162);
+			this.GunOnHero.Name = "GunOnHero";
+			this.GunOnHero.Size = new System.Drawing.Size(41, 41);
+			this.GunOnHero.TabIndex = 7;
+			this.GunOnHero.TabStop = false;
+			// 
+			// HelmetOnInventory1
+			// 
+			this.HelmetOnInventory1.Location = new System.Drawing.Point(26, 384);
+			this.HelmetOnInventory1.Name = "HelmetOnInventory1";
+			this.HelmetOnInventory1.Size = new System.Drawing.Size(41, 41);
+			this.HelmetOnInventory1.TabIndex = 8;
+			this.HelmetOnInventory1.TabStop = false;
+			// 
+			// BootsOnInventory1
+			// 
+			this.BootsOnInventory1.Location = new System.Drawing.Point(167, 384);
+			this.BootsOnInventory1.Name = "BootsOnInventory1";
+			this.BootsOnInventory1.Size = new System.Drawing.Size(41, 41);
+			this.BootsOnInventory1.TabIndex = 9;
+			this.BootsOnInventory1.TabStop = false;
+			// 
+			// LegsOnInventory1
+			// 
+			this.LegsOnInventory1.Location = new System.Drawing.Point(120, 384);
+			this.LegsOnInventory1.Name = "LegsOnInventory1";
+			this.LegsOnInventory1.Size = new System.Drawing.Size(41, 41);
+			this.LegsOnInventory1.TabIndex = 10;
+			this.LegsOnInventory1.TabStop = false;
+			// 
+			// ArmourOnInventory1
+			// 
+			this.ArmourOnInventory1.Location = new System.Drawing.Point(73, 384);
+			this.ArmourOnInventory1.Name = "ArmourOnInventory1";
+			this.ArmourOnInventory1.Size = new System.Drawing.Size(41, 41);
+			this.ArmourOnInventory1.TabIndex = 11;
+			this.ArmourOnInventory1.TabStop = false;
+			// 
+			// GunOnInventory1
+			// 
+			this.GunOnInventory1.Location = new System.Drawing.Point(214, 384);
+			this.GunOnInventory1.Name = "GunOnInventory1";
+			this.GunOnInventory1.Size = new System.Drawing.Size(41, 41);
+			this.GunOnInventory1.TabIndex = 12;
+			this.GunOnInventory1.TabStop = false;
+			// 
+			// GunOnInventory2
+			// 
+			this.GunOnInventory2.Location = new System.Drawing.Point(214, 431);
+			this.GunOnInventory2.Name = "GunOnInventory2";
+			this.GunOnInventory2.Size = new System.Drawing.Size(41, 41);
+			this.GunOnInventory2.TabIndex = 17;
+			this.GunOnInventory2.TabStop = false;
+			// 
+			// ArmourOnInventory2
+			// 
+			this.ArmourOnInventory2.Location = new System.Drawing.Point(73, 431);
+			this.ArmourOnInventory2.Name = "ArmourOnInventory2";
+			this.ArmourOnInventory2.Size = new System.Drawing.Size(41, 41);
+			this.ArmourOnInventory2.TabIndex = 16;
+			this.ArmourOnInventory2.TabStop = false;
+			// 
+			// LegsOnInventory2
+			// 
+			this.LegsOnInventory2.Location = new System.Drawing.Point(120, 431);
+			this.LegsOnInventory2.Name = "LegsOnInventory2";
+			this.LegsOnInventory2.Size = new System.Drawing.Size(41, 41);
+			this.LegsOnInventory2.TabIndex = 15;
+			this.LegsOnInventory2.TabStop = false;
+			// 
+			// BootsOnInventory2
+			// 
+			this.BootsOnInventory2.Location = new System.Drawing.Point(167, 431);
+			this.BootsOnInventory2.Name = "BootsOnInventory2";
+			this.BootsOnInventory2.Size = new System.Drawing.Size(41, 41);
+			this.BootsOnInventory2.TabIndex = 14;
+			this.BootsOnInventory2.TabStop = false;
+			// 
+			// HelmetOnInventory2
+			// 
+			this.HelmetOnInventory2.Location = new System.Drawing.Point(26, 431);
+			this.HelmetOnInventory2.Name = "HelmetOnInventory2";
+			this.HelmetOnInventory2.Size = new System.Drawing.Size(41, 41);
+			this.HelmetOnInventory2.TabIndex = 13;
+			this.HelmetOnInventory2.TabStop = false;
+			// 
+			// GunOnInventory3
+			// 
+			this.GunOnInventory3.Location = new System.Drawing.Point(214, 478);
+			this.GunOnInventory3.Name = "GunOnInventory3";
+			this.GunOnInventory3.Size = new System.Drawing.Size(41, 41);
+			this.GunOnInventory3.TabIndex = 22;
+			this.GunOnInventory3.TabStop = false;
+			// 
+			// ArmourOnInventory3
+			// 
+			this.ArmourOnInventory3.Location = new System.Drawing.Point(73, 478);
+			this.ArmourOnInventory3.Name = "ArmourOnInventory3";
+			this.ArmourOnInventory3.Size = new System.Drawing.Size(41, 41);
+			this.ArmourOnInventory3.TabIndex = 21;
+			this.ArmourOnInventory3.TabStop = false;
+			// 
+			// LegsOnInventory3
+			// 
+			this.LegsOnInventory3.Location = new System.Drawing.Point(120, 478);
+			this.LegsOnInventory3.Name = "LegsOnInventory3";
+			this.LegsOnInventory3.Size = new System.Drawing.Size(41, 41);
+			this.LegsOnInventory3.TabIndex = 20;
+			this.LegsOnInventory3.TabStop = false;
+			// 
+			// BootsOnInventory3
+			// 
+			this.BootsOnInventory3.Location = new System.Drawing.Point(167, 478);
+			this.BootsOnInventory3.Name = "BootsOnInventory3";
+			this.BootsOnInventory3.Size = new System.Drawing.Size(41, 41);
+			this.BootsOnInventory3.TabIndex = 19;
+			this.BootsOnInventory3.TabStop = false;
+			// 
+			// HelmetOnInventory3
+			// 
+			this.HelmetOnInventory3.Location = new System.Drawing.Point(26, 478);
+			this.HelmetOnInventory3.Name = "HelmetOnInventory3";
+			this.HelmetOnInventory3.Size = new System.Drawing.Size(41, 41);
+			this.HelmetOnInventory3.TabIndex = 18;
+			this.HelmetOnInventory3.TabStop = false;
+			// 
+			// Inventory_Form
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(323, 547);
+			this.Controls.Add(this.GunOnInventory3);
+			this.Controls.Add(this.ArmourOnInventory3);
+			this.Controls.Add(this.LegsOnInventory3);
+			this.Controls.Add(this.BootsOnInventory3);
+			this.Controls.Add(this.HelmetOnInventory3);
+			this.Controls.Add(this.GunOnInventory2);
+			this.Controls.Add(this.ArmourOnInventory2);
+			this.Controls.Add(this.LegsOnInventory2);
+			this.Controls.Add(this.BootsOnInventory2);
+			this.Controls.Add(this.HelmetOnInventory2);
+			this.Controls.Add(this.GunOnInventory1);
+			this.Controls.Add(this.ArmourOnInventory1);
+			this.Controls.Add(this.LegsOnInventory1);
+			this.Controls.Add(this.BootsOnInventory1);
+			this.Controls.Add(this.HelmetOnInventory1);
+			this.Controls.Add(this.GunOnHero);
+			this.Controls.Add(this.ArmourOnHero);
+			this.Controls.Add(this.LegsOnHero);
+			this.Controls.Add(this.BootsOnHero);
+			this.Controls.Add(this.HelmetOnHero);
+			this.Name = "Inventory_Form";
+			this.Text = "Inventory_Form";
+			((System.ComponentModel.ISupportInitialize)(this.HelmetOnHero)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.BootsOnHero)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.LegsOnHero)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.ArmourOnHero)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.GunOnHero)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.HelmetOnInventory1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.BootsOnInventory1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.LegsOnInventory1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.ArmourOnInventory1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.GunOnInventory1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.GunOnInventory2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.ArmourOnInventory2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.LegsOnInventory2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.BootsOnInventory2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.HelmetOnInventory2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.GunOnInventory3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.ArmourOnInventory3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.LegsOnInventory3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.BootsOnInventory3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.HelmetOnInventory3)).EndInit();
+			this.ResumeLayout(false);
 
         }
 
         #endregion
 
         private UI.Picture_Main_Character picture_Main_Character1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox HelmetOnHero;
+        private System.Windows.Forms.PictureBox BootsOnHero;
+        private System.Windows.Forms.PictureBox LegsOnHero;
+        private System.Windows.Forms.PictureBox ArmourOnHero;
+        private System.Windows.Forms.PictureBox GunOnHero;
+        private System.Windows.Forms.PictureBox HelmetOnInventory1;
+        private System.Windows.Forms.PictureBox BootsOnInventory1;
+        private System.Windows.Forms.PictureBox LegsOnInventory1;
+        private System.Windows.Forms.PictureBox ArmourOnInventory1;
+        private System.Windows.Forms.PictureBox GunOnInventory1;
+        private System.Windows.Forms.PictureBox GunOnInventory2;
+        private System.Windows.Forms.PictureBox ArmourOnInventory2;
+        private System.Windows.Forms.PictureBox LegsOnInventory2;
+        private System.Windows.Forms.PictureBox BootsOnInventory2;
+        private System.Windows.Forms.PictureBox HelmetOnInventory2;
+        private System.Windows.Forms.PictureBox GunOnInventory3;
+        private System.Windows.Forms.PictureBox ArmourOnInventory3;
+        private System.Windows.Forms.PictureBox LegsOnInventory3;
+        private System.Windows.Forms.PictureBox BootsOnInventory3;
+        private System.Windows.Forms.PictureBox HelmetOnInventory3;
     }
 }
