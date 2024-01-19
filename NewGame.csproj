@@ -128,6 +128,33 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dialogs\1.txt" />
+    <Content Include="Dialogs\10.txt" />
+    <Content Include="Dialogs\11.txt" />
+    <Content Include="Dialogs\12.txt" />
+    <Content Include="Dialogs\13.txt" />
+    <Content Include="Dialogs\14.txt" />
+    <Content Include="Dialogs\15.txt" />
+    <Content Include="Dialogs\16.txt" />
+    <Content Include="Dialogs\17.txt" />
+    <Content Include="Dialogs\18.txt" />
+    <Content Include="Dialogs\19.txt" />
+    <Content Include="Dialogs\2.txt" />
+    <Content Include="Dialogs\20.txt" />
+    <Content Include="Dialogs\21.txt" />
+    <Content Include="Dialogs\22.txt" />
+    <Content Include="Dialogs\23.txt" />
+    <Content Include="Dialogs\24.txt" />
+    <Content Include="Dialogs\25.txt" />
+    <Content Include="Dialogs\26.txt" />
+    <Content Include="Dialogs\3.txt" />
+    <Content Include="Dialogs\4.txt" />
+    <Content Include="Dialogs\5.txt" />
+    <Content Include="Dialogs\7.txt" />
+    <Content Include="Dialogs\6.txt" />
+    <Content Include="Dialogs\8.txt" />
+    <Content Include="Dialogs\9.txt" />
+    <Content Include="Dialogs\Introduction.txt" />
     <Content Include="Images\blank.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
