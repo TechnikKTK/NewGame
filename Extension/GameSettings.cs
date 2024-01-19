@@ -21,6 +21,7 @@ namespace NewGame.Extension
     {
         public static string AppPath => AppDomain.CurrentDomain.BaseDirectory;
         public static string ImagesPath => "Images";
+        public static string ResourcesPath => "Resources";
         public static int StepDelay => 500;
     }
 
