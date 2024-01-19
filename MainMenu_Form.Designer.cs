@@ -40,6 +40,7 @@
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -58,7 +59,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(32, 453);
+            this.button1.Location = new System.Drawing.Point(31, 528);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(151, 53);
             this.button1.TabIndex = 5;
@@ -68,7 +69,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(32, 512);
+            this.button2.Location = new System.Drawing.Point(31, 587);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(151, 53);
             this.button2.TabIndex = 6;
@@ -88,18 +89,20 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::NewGame.Properties.Resources.Quests_png;
-            this.pictureBox3.Location = new System.Drawing.Point(134, 392);
+            this.pictureBox3.Location = new System.Drawing.Point(118, 467);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(49, 55);
+            this.pictureBox3.Size = new System.Drawing.Size(64, 55);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::NewGame.Properties.Resources.bag_png;
-            this.pictureBox2.Location = new System.Drawing.Point(32, 392);
+            this.pictureBox2.Location = new System.Drawing.Point(31, 467);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(49, 55);
+            this.pictureBox2.Size = new System.Drawing.Size(66, 55);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
@@ -153,11 +156,22 @@
             this.richTextBox5.TabIndex = 16;
             this.richTextBox5.Text = "";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(31, 405);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(151, 56);
+            this.button3.TabIndex = 17;
+            this.button3.Text = "Старт";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // MainMenu_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.richTextBox5);
             this.Controls.Add(this.richTextBox4);
             this.Controls.Add(this.richTextBox3);
@@ -194,6 +208,7 @@
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.RichTextBox richTextBox4;
         private System.Windows.Forms.RichTextBox richTextBox5;
+        private System.Windows.Forms.Button button3;
     }
 }
 
