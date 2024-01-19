@@ -1,6 +1,6 @@
 ﻿namespace NewGame.UI
 {
-    partial class UImap
+    partial class UIMap
     {
         /// <summary> 
         /// Обязательная переменная конструктора.
@@ -28,10 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.pictMap = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictMap)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pictMap
+            // 
+            this.pictMap.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictMap.Location = new System.Drawing.Point(0, 0);
+            this.pictMap.Name = "pictMap";
+            this.pictMap.Size = new System.Drawing.Size(583, 351);
+            this.pictMap.TabIndex = 0;
+            this.pictMap.TabStop = false;
+            // 
+            // UImap
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pictMap);
+            this.Name = "UImap";
+            this.Size = new System.Drawing.Size(583, 351);
+            ((System.ComponentModel.ISupportInitialize)(this.pictMap)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox pictMap;
     }
 }
