@@ -19,8 +19,6 @@ namespace NewGame
 			InitializeComponent();
 			fontsProjects();
 			fonts();
-
-
 		}
 
 		PrivateFontCollection font;
@@ -39,5 +37,16 @@ namespace NewGame
 			btnSettings.Font = new Font(font.Families[0], 23);
 			btnExit.Font = new Font(font.Families[0], 23);
 		}
-	}
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+			MainForm frm = new MainForm();
+			frm.ShowDialog();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+			this.Close();
+        }
+    }
 }

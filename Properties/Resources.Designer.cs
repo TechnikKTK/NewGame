@@ -65,7 +65,7 @@ namespace NewGame.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _6c4f8d45523437_583401ef4ed25 {
             get {
-                object obj = ResourceManager.GetObject("6c4f8d45523437.583401ef4ed25", resourceCulture);
+                object obj = ResourceManager.GetObject("_6c4f8d45523437_583401ef4ed25", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -76,6 +76,16 @@ namespace NewGame.Properties {
         internal static System.Drawing.Bitmap background {
             get {
                 object obj = ResourceManager.GetObject("background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap background1 {
+            get {
+                object obj = ResourceManager.GetObject("background1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +153,19 @@ namespace NewGame.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap фон3 {
+            get {
+                object obj = ResourceManager.GetObject("фон3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap шкала_psd {
             get {
-                object obj = ResourceManager.GetObject("шкала.psd", resourceCulture);
+                object obj = ResourceManager.GetObject("шкала_psd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

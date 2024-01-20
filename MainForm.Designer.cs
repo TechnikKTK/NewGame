@@ -46,6 +46,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.progressData3);
             this.panel1.Controls.Add(this.progressData2);
             this.panel1.Controls.Add(this.progressData1);
@@ -75,10 +76,11 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
             this.pictureBox1.Image = global::NewGame.Properties.Resources.hero_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(8, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 214);
+            this.pictureBox1.Size = new System.Drawing.Size(104, 214);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -89,7 +91,7 @@
             this.uiQuest1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.uiQuest1.Location = new System.Drawing.Point(119, 143);
             this.uiQuest1.Name = "uiQuest1";
-            this.uiQuest1.Size = new System.Drawing.Size(562, 365);
+            this.uiQuest1.Size = new System.Drawing.Size(562, 360);
             this.uiQuest1.TabIndex = 6;
             // 
             // progressData3
@@ -127,7 +129,7 @@
             this.uiMove1.Fight = null;
             this.uiMove1.GetPredmet = null;
             this.uiMove1.Goto = null;
-            this.uiMove1.Location = new System.Drawing.Point(771, 416);
+            this.uiMove1.Location = new System.Drawing.Point(781, 416);
             this.uiMove1.Name = "uiMove1";
             this.uiMove1.Size = new System.Drawing.Size(251, 174);
             this.uiMove1.TabIndex = 0;
@@ -137,6 +139,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::NewGame.Properties.Resources.фон3;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1107, 671);
             this.Controls.Add(this.uiQuest1);
             this.Controls.Add(this.pictureBox3);
