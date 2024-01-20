@@ -15,5 +15,10 @@ namespace NewGame.Test
             uiMap1.SetEvent(uiMove1.SetCollision);
             uiMove1.Goto += uiMap1.MoveHero;
         }
+
+        private void Test_Load(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

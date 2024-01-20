@@ -83,6 +83,16 @@ namespace NewGame.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hero_logo {
+            get {
+                object obj = ResourceManager.GetObject("hero_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Quests_png {
             get {
                 object obj = ResourceManager.GetObject("Quests_png", resourceCulture);
@@ -96,6 +106,36 @@ namespace NewGame.Properties {
         internal static System.Drawing.Bitmap ацыамуцкацыуа {
             get {
                 object obj = ResourceManager.GetObject("ацыамуцкацыуа", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap книга {
+            get {
+                object obj = ResourceManager.GetObject("книга", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap сумка {
+            get {
+                object obj = ResourceManager.GetObject("сумка", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap шкала_psd {
+            get {
+                object obj = ResourceManager.GetObject("шкала.psd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

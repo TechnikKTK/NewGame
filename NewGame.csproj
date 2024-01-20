@@ -47,12 +47,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extension\GameSettings.cs" />
+    <Compile Include="Extension\Hero.cs" />
     <Compile Include="Extension\InventoryItem.cs" />
+    <Compile Include="Extension\InventoryList.cs" />
     <Compile Include="Inventory_Form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Inventory_Form.designer.cs">
       <DependentUpon>Inventory_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainMenu_Form.cs">
       <SubType>Form</SubType>
@@ -62,6 +70,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestDay.Designer.cs">
+      <DependentUpon>QuestDay.cs</DependentUpon>
+    </Compile>
     <Compile Include="Test\Test.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +87,18 @@
     </Compile>
     <Compile Include="UI\Picture_Main_Character.Designer.cs">
       <DependentUpon>Picture_Main_Character.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProgressData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\ProgressData.Designer.cs">
+      <DependentUpon>ProgressData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UILog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UILog.Designer.cs">
+      <DependentUpon>UILog.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\UImap.cs">
       <SubType>UserControl</SubType>
@@ -86,8 +112,23 @@
     <Compile Include="UI\UIMove.Designer.cs">
       <DependentUpon>UIMove.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\UIQuest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UIQuest.Designer.cs">
+      <DependentUpon>UIQuest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UItem.Designer.cs">
+      <DependentUpon>UItem.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Inventory_Form.resx">
       <DependentUpon>Inventory_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu_Form.resx">
       <DependentUpon>MainMenu_Form.cs</DependentUpon>
@@ -102,17 +143,32 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="QuestDay.resx">
+      <DependentUpon>QuestDay.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Test\Test.resx">
       <DependentUpon>Test.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Picture_Main_Character.resx">
       <DependentUpon>Picture_Main_Character.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProgressData.resx">
+      <DependentUpon>ProgressData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UILog.resx">
+      <DependentUpon>UILog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\UImap.resx">
       <DependentUpon>UImap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\UIMove.resx">
       <DependentUpon>UIMove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UIQuest.resx">
+      <DependentUpon>UIQuest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UItem.resx">
+      <DependentUpon>UItem.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -158,13 +214,103 @@
     <Content Include="Images\blank.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\damage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\heart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\hero.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\map.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\protect.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Raw\1конверсы.png" />
+    <Content Include="Raw\1меч.png" />
+    <Content Include="Raw\1шлем.png" />
+    <Content Include="Raw\1штанишки.png" />
+    <Content Include="Raw\2024-01-19-15-03-12.png" />
+    <Content Include="Raw\2броня.png" />
+    <Content Include="Raw\2конверсы.png" />
+    <Content Include="Raw\2штанишки.png" />
+    <Content Include="Raw\3броня.png" />
+    <Content Include="Raw\3конверсы.png" />
+    <Content Include="Raw\3штанишки.png" />
+    <Content Include="Raw\4броня.png" />
     <Content Include="Raw\History.txt" />
+    <Content Include="Raw\image.psd %281%29.png" />
+    <Content Include="Raw\image.psd.png" />
+    <Content Include="Raw\Броян1.psd.png" />
+    <Content Include="Raw\инв ботинки.png" />
+    <Content Include="Raw\инв голова.png" />
+    <Content Include="Raw\инв меч вар1.png" />
+    <Content Include="Raw\инв ноги.png" />
+    <Content Include="Raw\инв тело.png" />
+    <Content Include="Raw\книга.png" />
+    <Content Include="Raw\меч на крайняк.png" />
+    <Content Include="Raw\Новый проект %281%29.png" />
+    <Content Include="Raw\Новый проект %282%29 %282%29.png" />
+    <Content Include="Raw\пудж.png" />
+    <Content Include="Raw\скелетик.png" />
+    <Content Include="Raw\сумка.png" />
+    <Content Include="Raw\фон1.jpg" />
+    <Content Include="Raw\фон2.jpg" />
+    <Content Include="Raw\фон3.jpg" />
+    <Content Include="Raw\шлем2.png" />
+    <Content Include="Raw\шлем3.png" />
+    <None Include="Resources\шкала.psd.png" />
+    <None Include="Resources\hero_logo.png" />
+    <Content Include="Resources\Inventory\броня1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\броня2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\броня3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\меч1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\меч2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\меч3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\ноги1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\ноги2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\ноги3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\сапоги1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\сапоги2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\сапоги3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\шлем1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\шлем2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inventory\шлем3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\книга.png" />
+    <None Include="Resources\сумка.png" />
     <None Include="Resources\6c4f8d45523437.583401ef4ed25.jpg" />
     <None Include="Resources\Quests_png.png" />
     <None Include="Resources\bag_png.png" />

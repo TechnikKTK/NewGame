@@ -1,11 +1,5 @@
 ﻿using NewGame.Extension;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -28,10 +22,15 @@ namespace NewGame.UI
 
         }
 
-        private void StepHero(object sender, EventArgs e)
+        private async void StepHero(object sender, EventArgs e)
         {
+            (sender as Button).Enabled = false;
+
             Goto((Extension.TypeMove)Enum.Parse(
                 typeof(Extension.TypeMove), (sender as Button).Tag.ToString()));
+
+            await Task.Delay(GameSettings.StepDelay);
+            (sender as Button).Enabled = true;
         }
     }
 }

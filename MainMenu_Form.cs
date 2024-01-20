@@ -21,5 +21,11 @@ namespace NewGame
         {
             new Test.Test().Show();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Inventory_Form inventory = new Inventory_Form();
+            inventory.Show();
+        }
     }
 }
