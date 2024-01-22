@@ -1,5 +1,7 @@
 ﻿using NewGame.Extension;
 using System;
+using System.Drawing.Text;
+using System.Drawing;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -9,7 +11,27 @@ namespace NewGame.UI
     {
         public UIMove()
         {
-            InitializeComponent();
+            InitializeComponent(); fontsProjects(); fonts();
+        }
+
+        PrivateFontCollection font;
+        private void fontsProjects()
+        {
+            //Добавляем шрифт из указанного файла в em.Drawing.Text.PrivateFontCollection
+            this.font = new PrivateFontCollection();
+            this.font.AddFontFile("font/myFont.ttf");
+        }
+
+        private void fonts()
+        {
+            foreach (Control item in this.Controls)
+            {
+                if (item is Button)
+                {
+                    item.Font = new Font(font.Families[0], 16);
+                }
+            }
+
         }
 
         public Action<Extension.TypeMove> Goto { get; set; }

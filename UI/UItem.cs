@@ -48,7 +48,7 @@ namespace NewGame.UI
             cloud = Graphics.FromImage(image);
 
             _item.IsVisible = state;
-            if (_item.IsVisible)
+            if (!_item.IsVisible)
             {
                 cloud.FillRectangle(
                     new SolidBrush(Color.FromArgb(150, Color.Gray)),

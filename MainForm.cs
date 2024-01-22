@@ -1,12 +1,7 @@
 ﻿using NewGame.Extension;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Drawing.Text;
 using System.Windows.Forms;
 
 namespace NewGame
@@ -16,8 +11,29 @@ namespace NewGame
         IHero hero = new Hero();
         public MainForm()
         {
-            InitializeComponent();
+            InitializeComponent(); fontsProjects(); fonts();
         }
+
+        PrivateFontCollection font;
+        private void fontsProjects()
+        {
+            //Добавляем шрифт из указанного файла в em.Drawing.Text.PrivateFontCollection
+            this.font = new PrivateFontCollection();
+            this.font.AddFontFile("font/myFont.ttf");
+        }
+
+        private void fonts()
+        {
+            foreach (Control item in this.Controls)
+            {
+                if (item is Button)
+                {
+                    item.Font = new Font(font.Families[0], 23);
+                }
+            }
+
+        }
+
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
@@ -29,11 +45,16 @@ namespace NewGame
         {
             uiMap1.Initialize();
             uiMap1.SetEvent(uiMove1.SetCollision);
+            uiMap1.GetDialog += uiQuest1.ShowDialog;
+            uiMap1.GetEnemy += uiQuest1.ShowEnemy;
             uiMove1.Goto += uiMap1.MoveHero;
+
+            uiQuest1.ShowDialog(1);
 
             progressData1.Initialize(hero, UI.TypeProgress.Health);
             progressData2.Initialize(hero, UI.TypeProgress.Damage);
             progressData3.Initialize(hero, UI.TypeProgress.Protect);
         }
+
     }
 }

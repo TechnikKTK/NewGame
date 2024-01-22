@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace NewGame.Extension
 {
@@ -22,8 +17,9 @@ namespace NewGame.Extension
         public static string AppPath => AppDomain.CurrentDomain.BaseDirectory;
         public static string ImagesPath => "Images";
         public static string ResourcesPath => "Resources";
+        public static string DialogPath => "Dialogs";
         public static string InventoryPath => "Resources\\Inventory";
-        public static int StepDelay => 500;
+        public static int StepDelay => 50;
     }
 
     public enum TypeMove

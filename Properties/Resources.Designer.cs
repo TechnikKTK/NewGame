@@ -63,6 +63,16 @@ namespace NewGame.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1614410121_55_p_temnii_teksturnii_fon_83 {
+            get {
+                object obj = ResourceManager.GetObject("1614410121_55-p-temnii-teksturnii-fon-83", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _6c4f8d45523437_583401ef4ed25 {
             get {
                 object obj = ResourceManager.GetObject("_6c4f8d45523437_583401ef4ed25", resourceCulture);
@@ -136,6 +146,146 @@ namespace NewGame.Properties {
         internal static System.Drawing.Bitmap книга {
             get {
                 object obj = ResourceManager.GetObject("книга", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap кнопки {
+            get {
+                object obj = ResourceManager.GetObject("кнопки", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap правая_рамка_psd {
+            get {
+                object obj = ResourceManager.GetObject("правая рамка.psd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap рамка__левый_верхний_угол_psd {
+            get {
+                object obj = ResourceManager.GetObject("рамка  левый верхний угол.psd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap рамка_верхняя_psd {
+            get {
+                object obj = ResourceManager.GetObject("рамка верхняя.psd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap рамка_левая_psd {
+            get {
+                object obj = ResourceManager.GetObject("рамка левая.psd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap рамка_левый_нижний_угол_psd {
+            get {
+                object obj = ResourceManager.GetObject("рамка левый нижний угол.psd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap рамка_нижняя {
+            get {
+                object obj = ResourceManager.GetObject("рамка нижняя", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap рамка_правый_верхний_угол_psd {
+            get {
+                object obj = ResourceManager.GetObject("рамка правый верхний угол.psd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap рамка_правый_нижний_угол_psd {
+            get {
+                object obj = ResourceManager.GetObject("рамка правый нижний угол.psd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2024_01_20_131304 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2024-01-20 131304", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap стрелка_влево_psd {
+            get {
+                object obj = ResourceManager.GetObject("стрелка влево.psd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap стрелка_вниз_psd {
+            get {
+                object obj = ResourceManager.GetObject("стрелка вниз.psd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap стрелка_вправо_psd {
+            get {
+                object obj = ResourceManager.GetObject("стрелка вправо.psd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap стрелочка_вверх_psd {
+            get {
+                object obj = ResourceManager.GetObject("стрелочка вверх.psd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

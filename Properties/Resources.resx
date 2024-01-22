@@ -118,37 +118,82 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="сумка" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\сумка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bag_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bag_png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="стрелка влево.psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\стрелка влево.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_6c4f8d45523437_583401ef4ed25" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\6c4f8d45523437.583401ef4ed25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Quests_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Quests_png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="рамка  левый верхний угол.psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\рамка  левый верхний угол.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="рамка верхняя.psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\рамка верхняя.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="рамка левая.psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\рамка левая.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="правая рамка.psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\правая рамка.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кнопки" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\кнопки.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="рамка правый нижний угол.psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\рамка правый нижний угол.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="фон3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\фон3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="книга" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\книга.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="стрелочка вверх.psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\стрелочка вверх.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="hero_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hero_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="шкала_psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\шкала.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ацыамуцкацыуа" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ацыамуцкацыуа.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1614410121_55-p-temnii-teksturnii-fon-83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1614410121_55-p-temnii-teksturnii-fon-83.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="фон3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\фон3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="шкала_psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\шкала.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка вправо.psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\стрелка вправо.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bag_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bag_png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="рамка правый верхний угол.psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\рамка правый верхний угол.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ацыамуцкацыуа" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ацыамуцкацыуа.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="рамка левый нижний угол.psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\рамка левый нижний угол.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="сумка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\сумка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="рамка нижняя" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\рамка нижняя.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка вниз.psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Raw\стрелка вниз.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quests_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quests_png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок экрана 2024-01-20 131304" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок экрана 2024-01-20 131304.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

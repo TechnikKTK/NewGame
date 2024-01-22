@@ -10,7 +10,7 @@ namespace NewGame.Extension
         public InventoryType Type { get; set; }
         public InventoryClass Class { get; set; }
         public string Name { get; set; }
-        public bool IsVisible { get; set; } = true;
+        public bool IsVisible { get; set; } = false;
         public bool IsActive { get; set; } = false;
         public int Defense { get; set; }
         public int Damage { get; set; }

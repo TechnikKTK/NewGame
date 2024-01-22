@@ -32,7 +32,7 @@ namespace NewGame
 		private void fonts()
 		{
 			//Задаем шрифт текста, отображаемого элементом управления.
-			lblHeading.Font = new Font(font.Families[0], 23);	
+			lblHeading.Font = new Font(font.Families[0], 35);	
 			btnStart.Font = new Font(font.Families[0], 23);
 			btnSettings.Font = new Font(font.Families[0], 23);
 			btnExit.Font = new Font(font.Families[0], 23);

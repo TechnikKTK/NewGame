@@ -24,6 +24,9 @@ namespace NewGame.UI
         Bitmap blank;
 
         public event Action<TypeGameObject> OnCollision;
+        public event Action<int> GetDialog;
+        public event Action<int> GetLut;
+        public event Action GetEnemy;
 
         public UIMap()
         {
@@ -70,13 +73,14 @@ namespace NewGame.UI
             blank = new Bitmap(pathBlank);
             
             map.DrawImage(hero, positon);
-            pictMap.Image =new Bitmap( canvas);
+            pictMap.Image =new Bitmap(canvas);
         }
 
         async Task GoUp()
         {
             Point next = new Point(positon.X, positon.Y - hero.Height);
             var color = CheckPixel(next);
+
             if (color.Name == "ffffffff")
             {
 
@@ -95,7 +99,31 @@ namespace NewGame.UI
 
         private Color CheckPixel(Point next)
         {
-            return level_map.GetPixel(next.X, next.Y);
+            var color = level_map.GetPixel(next.X, next.Y);
+            Random rnd = new Random();
+            var number = rnd.Next(2, 20);
+
+            switch (color.Name)
+            {
+                case "ffffff00":
+                    //dialog
+                    GetDialog?.Invoke(number);
+                    break;
+                case "ffff0000":
+                    //враг
+                    GetEnemy?.Invoke();
+                    break;
+                case "ff00ff00":
+                    //checkpoint
+
+                    break;
+                case "ff0000ff":
+                    //лут
+                    GetLut?.Invoke(1);
+                    break;
+            }
+
+            return color;
         }
 
         async Task GoDown()

@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>game.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -195,33 +198,88 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Dialogs\1.txt" />
-    <Content Include="Dialogs\10.txt" />
-    <Content Include="Dialogs\11.txt" />
-    <Content Include="Dialogs\12.txt" />
-    <Content Include="Dialogs\13.txt" />
-    <Content Include="Dialogs\14.txt" />
-    <Content Include="Dialogs\15.txt" />
-    <Content Include="Dialogs\16.txt" />
-    <Content Include="Dialogs\17.txt" />
-    <Content Include="Dialogs\18.txt" />
-    <Content Include="Dialogs\19.txt" />
-    <Content Include="Dialogs\2.txt" />
-    <Content Include="Dialogs\20.txt" />
-    <Content Include="Dialogs\21.txt" />
-    <Content Include="Dialogs\22.txt" />
-    <Content Include="Dialogs\23.txt" />
-    <Content Include="Dialogs\24.txt" />
-    <Content Include="Dialogs\25.txt" />
-    <Content Include="Dialogs\26.txt" />
-    <Content Include="Dialogs\3.txt" />
-    <Content Include="Dialogs\4.txt" />
-    <Content Include="Dialogs\5.txt" />
-    <Content Include="Dialogs\7.txt" />
-    <Content Include="Dialogs\6.txt" />
-    <Content Include="Dialogs\8.txt" />
-    <Content Include="Dialogs\9.txt" />
-    <Content Include="Dialogs\Introduction.txt" />
+    <Content Include="Dialogs\1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\10.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\11.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\12.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\13.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\14.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\15.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\16.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\17.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\18.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\19.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\20.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\21.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\22.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\23.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\24.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\25.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\26.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\4.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\5.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\8.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\9.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Dialogs\Introduction.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="game.ico" />
     <Content Include="Images\blank.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -262,11 +320,25 @@
     <Content Include="Raw\инв ноги.png" />
     <Content Include="Raw\инв тело.png" />
     <Content Include="Raw\книга.png" />
+    <None Include="Resources\Снимок экрана 2024-01-20 131304.png" />
+    <None Include="Raw\кнопки.png" />
     <Content Include="Raw\меч на крайняк.png" />
     <Content Include="Raw\Новый проект %281%29.png" />
     <Content Include="Raw\Новый проект %282%29 %282%29.png" />
+    <None Include="Raw\правая рамка.psd.png" />
     <Content Include="Raw\пудж.png" />
+    <None Include="Raw\рамка  левый верхний угол.psd.png" />
+    <None Include="Raw\рамка правый верхний угол.psd.png" />
+    <None Include="Raw\рамка правый нижний угол.psd.png" />
+    <None Include="Raw\рамка левый нижний угол.psd.png" />
+    <None Include="Raw\рамка левая.psd.png" />
+    <None Include="Raw\рамка нижняя.png" />
+    <None Include="Raw\рамка верхняя.psd.png" />
     <Content Include="Raw\скелетик.png" />
+    <None Include="Raw\стрелочка вверх.psd.png" />
+    <None Include="Raw\стрелка влево.psd.png" />
+    <None Include="Raw\стрелка вправо.psd.png" />
+    <None Include="Raw\стрелка вниз.psd.png" />
     <Content Include="Raw\сумка.png" />
     <Content Include="Raw\фон1.jpg" />
     <Content Include="Raw\фон2.jpg" />
@@ -277,6 +349,7 @@
     <None Include="Resources\ацыамуцкацыуа.jpg" />
     <None Include="Resources\шкала.psd.png" />
     <None Include="Resources\hero_logo.png" />
+    <None Include="Resources\1614410121_55-p-temnii-teksturnii-fon-83.jpg" />
     <Content Include="Resources\Inventory\броня1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
