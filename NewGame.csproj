@@ -96,6 +96,12 @@
     <Compile Include="Test\Test.Designer.cs">
       <DependentUpon>Test.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\FightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FightForm.Designer.cs">
+      <DependentUpon>FightForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Picture_Main_Character.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -159,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Test\Test.resx">
       <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FightForm.resx">
+      <DependentUpon>FightForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Picture_Main_Character.resx">
       <DependentUpon>Picture_Main_Character.cs</DependentUpon>

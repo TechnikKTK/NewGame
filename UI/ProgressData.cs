@@ -15,8 +15,8 @@ namespace NewGame.UI
 
         IHero _person;
         TypeProgress _type;
-        
-        public void Initialize(IHero person, TypeProgress type)
+
+        public void Initialize(IHero person, TypeProgress type, bool isEnemy = false)
         {
             _person = person;
             _type = type;
@@ -26,18 +26,23 @@ namespace NewGame.UI
                 case TypeProgress.Health:
                     panel1.BackColor = Color.Red;
                     path = Path.Combine(GameSettings.AppPath, GameSettings.ImagesPath, "heart.png");
-                        break;
+                    break;
                 case TypeProgress.Damage:
-                    panel1.BackColor = Color.Blue; 
+                    panel1.BackColor = Color.Blue;
                     path = Path.Combine(GameSettings.AppPath, GameSettings.ImagesPath, "damage.png");
                     break;
                 case TypeProgress.Protect:
-                    panel1.BackColor = Color.Green; 
+                    panel1.BackColor = Color.Green;
                     path = Path.Combine(GameSettings.AppPath, GameSettings.ImagesPath, "protect.png");
                     break;
             }
 
             pictureBox1.Image = new Bitmap(path);
+            pictureBox3.Image = new Bitmap(path);
+
+            pictureBox3.Visible = isEnemy;
+            pictureBox1.Visible = !isEnemy;
+
             UpdateProgress();
         }
 

@@ -55,6 +55,5 @@ namespace NewGame
             progressData2.Initialize(hero, UI.TypeProgress.Damage);
             progressData3.Initialize(hero, UI.TypeProgress.Protect);
         }
-
-    }
+	}
 }
