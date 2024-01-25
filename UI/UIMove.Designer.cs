@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UIMove));
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnFight = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -60,16 +60,18 @@
             this.button6.Text = "Подобрать";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnFight
             // 
-            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(193, 141);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(89, 40);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Удар";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnFight.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFight.BackgroundImage")));
+            this.btnFight.Enabled = false;
+            this.btnFight.ForeColor = System.Drawing.Color.White;
+            this.btnFight.Location = new System.Drawing.Point(193, 141);
+            this.btnFight.Name = "btnFight";
+            this.btnFight.Size = new System.Drawing.Size(89, 40);
+            this.btnFight.TabIndex = 6;
+            this.btnFight.Text = "Удар";
+            this.btnFight.UseVisualStyleBackColor = true;
+            this.btnFight.Click += new System.EventHandler(this.btnFight_Click);
             // 
             // button4
             // 
@@ -147,7 +149,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.btnFight);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -168,6 +170,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnFight;
     }
 }

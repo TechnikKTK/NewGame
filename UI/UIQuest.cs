@@ -46,7 +46,7 @@ namespace NewGame.UI
             textBox1.Text = File.ReadAllText(path);
         }
 
-        public void ShowEnemy()
+        public void ShowEnemy(IHero enemy)
         {
             textBox1.Text = "Пришло время сразится.. Бери свой меч и вперед!!";
         }

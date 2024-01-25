@@ -45,7 +45,7 @@
             // 
             // uiMove1
             // 
-            this.uiMove1.Fight = null;
+            this.uiMove1.GotoFight = null;
             this.uiMove1.GetPredmet = null;
             this.uiMove1.Goto = null;
             this.uiMove1.Location = new System.Drawing.Point(33, 264);

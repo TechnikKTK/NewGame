@@ -31,28 +31,42 @@ namespace NewGame.UI
                     item.Font = new Font(font.Families[0], 16);
                 }
             }
-
         }
 
         public Action<Extension.TypeMove> Goto { get; set; }
         public Action<Extension.NpcTalk> Talk { get; set; }
         public Action<Extension.Lut> GetPredmet { get; set; }
-        public Action<int> Fight { get; set; }
+        public Action<IHero> GotoFight { get; set; }
 
         public void SetCollision(TypeGameObject data)
         {
 
         }
 
+        IHero _enemy = null;
+        public void FightMenu(IHero enemy)
+        {
+            btnFight.Enabled = true;
+            _enemy = enemy;
+        }
+
         private async void StepHero(object sender, EventArgs e)
         {
+            btnFight.Enabled = false;
+
             (sender as Button).Enabled = false;
 
             Goto((Extension.TypeMove)Enum.Parse(
                 typeof(Extension.TypeMove), (sender as Button).Tag.ToString()));
 
+
             await Task.Delay(GameSettings.StepDelay);
             (sender as Button).Enabled = true;
+        }
+
+        private void btnFight_Click(object sender, EventArgs e)
+        {
+            GotoFight(_enemy);
         }
     }
 }

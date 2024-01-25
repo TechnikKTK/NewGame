@@ -26,7 +26,7 @@ namespace NewGame.UI
         public event Action<TypeGameObject> OnCollision;
         public event Action<int> GetDialog;
         public event Action<int> GetLut;
-        public event Action GetEnemy;
+        public event Action<IHero> GetEnemy;
 
         public UIMap()
         {
@@ -83,7 +83,6 @@ namespace NewGame.UI
 
             if (color.Name == "ffffffff")
             {
-
                 await Task.Delay(GameSettings.StepDelay);
                 map.DrawImage(blank, positon);
                 positon.Offset(new Point(0, -hero.Height));
@@ -111,7 +110,7 @@ namespace NewGame.UI
                     break;
                 case "ffff0000":
                     //враг
-                    GetEnemy?.Invoke();
+                    GetEnemy?.Invoke(new Enemy() { Health = 50, Damage = 1, Protect = 1 });
                     break;
                 case "ff00ff00":
                     //checkpoint

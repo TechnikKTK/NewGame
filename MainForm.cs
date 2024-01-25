@@ -47,7 +47,15 @@ namespace NewGame
             uiMap1.SetEvent(uiMove1.SetCollision);
             uiMap1.GetDialog += uiQuest1.ShowDialog;
             uiMap1.GetEnemy += uiQuest1.ShowEnemy;
+            uiMap1.GetEnemy += uiMove1.FightMenu;
             uiMove1.Goto += uiMap1.MoveHero;
+
+            uiMove1.GotoFight += (enemy)=>
+            {
+                var form = new FightForm();
+                form.InitializeFight(hero, enemy);
+                form.ShowDialog();
+            };
 
             uiQuest1.ShowDialog(1);
 

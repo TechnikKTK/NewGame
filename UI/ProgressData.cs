@@ -15,11 +15,12 @@ namespace NewGame.UI
 
         IHero _person;
         TypeProgress _type;
-
+        bool _isEnemy = false;
         public void Initialize(IHero person, TypeProgress type, bool isEnemy = false)
         {
             _person = person;
             _type = type;
+            _isEnemy = isEnemy;
             var path = "";
             switch (_type)
             {
@@ -50,17 +51,34 @@ namespace NewGame.UI
         {
             if (_person != null)
             {
-                switch( _type )
+                int coeff = 1;
+                int max = 255;
+                int value = 1;
+
+                switch (_type)
                 {
+
                     case TypeProgress.Health:
-                        panel1.Width = _person.Health* 255 / 100;
+                        coeff = 100;
+                        value = _person.Health;
                         break;
                     case TypeProgress.Damage:
-                        panel1.Width = _person.Damage * 255 / 5;
+                        coeff = 5;
+                        value = _person.Damage;
                         break;
                     case TypeProgress.Protect:
-                        panel1.Width = _person.Protect * 255 / 5;
+                        coeff = 5;
+                        value = _person.Protect;
                         break;
+                }
+
+                panel1.Width = max * value / coeff;
+                
+                if(_isEnemy)
+                {
+                    var point = panel1.Location;
+                    point.Offset(max - panel1.Width, 0);
+                    panel1.Location = point;
                 }
             }
         }
