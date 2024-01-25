@@ -53,6 +53,7 @@ namespace NewGame.UI
             {
                 int coeff = 1;
                 int max = 255;
+                int offset = panel1.Width;
                 int value = 1;
 
                 switch (_type)
@@ -77,7 +78,7 @@ namespace NewGame.UI
                 if(_isEnemy)
                 {
                     var point = panel1.Location;
-                    point.Offset(max - panel1.Width, 0);
+                    point.Offset(offset - panel1.Width, 0);
                     panel1.Location = point;
                 }
             }

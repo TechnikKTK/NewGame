@@ -53,11 +53,32 @@ namespace NewGame
             enemyHealth.Initialize(_enemy, NewGame.UI.TypeProgress.Health,true);
             enemyDamage.Initialize(_enemy, NewGame.UI.TypeProgress.Damage, true);
             enemyProtect.Initialize(_enemy, NewGame.UI.TypeProgress.Protect, true);
+
+            _hero.Update += heroHealth.UpdateProgress;
+            _enemy.Update += enemyHealth.UpdateProgress;
+            _hero.Update += UpdateProgress;
+            _enemy.Update += UpdateProgress;
+        }
+
+        private void UpdateProgress()
+        {
+            if(_enemy.IsAlive && _hero.IsAlive)
+            {
+                return;
+            }
+            else
+            {
+                this.Close();
+                if(_hero.IsAlive)
+                {
+                    MessageBox.Show("Враг повержен!!!");
+                }
+            }
         }
 
         private void btnFight_Click(object sender, EventArgs e)
         {
-
+            _hero.Atack(_enemy);
         }
 
         private void btnProtect_Click(object sender, EventArgs e)
@@ -67,7 +88,7 @@ namespace NewGame
 
         private void btnGiveUp_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

@@ -69,7 +69,7 @@
             this.btnFight.Name = "btnFight";
             this.btnFight.Size = new System.Drawing.Size(89, 40);
             this.btnFight.TabIndex = 6;
-            this.btnFight.Text = "Удар";
+            this.btnFight.Text = "Бой";
             this.btnFight.UseVisualStyleBackColor = true;
             this.btnFight.Click += new System.EventHandler(this.btnFight_Click);
             // 

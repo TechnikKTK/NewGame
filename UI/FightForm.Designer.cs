@@ -35,18 +35,20 @@
             this.btnFight = new System.Windows.Forms.Button();
             this.btnProtect = new System.Windows.Forms.Button();
             this.btnGiveUp = new System.Windows.Forms.Button();
-            this.heroHealth = new NewGame.UI.ProgressData();
-            this.heroProtect = new NewGame.UI.ProgressData();
-            this.heroDamage = new NewGame.UI.ProgressData();
             this.enemyDamage = new NewGame.UI.ProgressData();
             this.enemyProtect = new NewGame.UI.ProgressData();
             this.enemyHealth = new NewGame.UI.ProgressData();
+            this.heroDamage = new NewGame.UI.ProgressData();
+            this.heroProtect = new NewGame.UI.ProgressData();
+            this.heroHealth = new NewGame.UI.ProgressData();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Image = global::NewGame.Properties.Resources.hero_logo;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(163, 229);
@@ -55,9 +57,12 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.Image = global::NewGame.Properties.Resources.Снимок_экрана_2024_01_20_131304;
             this.pictureBox2.Location = new System.Drawing.Point(951, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(163, 229);
+            this.pictureBox2.Size = new System.Drawing.Size(163, 166);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
@@ -105,33 +110,6 @@
             this.btnGiveUp.UseVisualStyleBackColor = true;
             this.btnGiveUp.Click += new System.EventHandler(this.btnGiveUp_Click);
             // 
-            // heroHealth
-            // 
-            this.heroHealth.BackColor = System.Drawing.Color.Transparent;
-            this.heroHealth.Location = new System.Drawing.Point(181, 12);
-            this.heroHealth.MinimumSize = new System.Drawing.Size(354, 38);
-            this.heroHealth.Name = "heroHealth";
-            this.heroHealth.Size = new System.Drawing.Size(354, 38);
-            this.heroHealth.TabIndex = 18;
-            // 
-            // heroProtect
-            // 
-            this.heroProtect.BackColor = System.Drawing.Color.Transparent;
-            this.heroProtect.Location = new System.Drawing.Point(181, 100);
-            this.heroProtect.MinimumSize = new System.Drawing.Size(354, 38);
-            this.heroProtect.Name = "heroProtect";
-            this.heroProtect.Size = new System.Drawing.Size(354, 38);
-            this.heroProtect.TabIndex = 19;
-            // 
-            // heroDamage
-            // 
-            this.heroDamage.BackColor = System.Drawing.Color.Transparent;
-            this.heroDamage.Location = new System.Drawing.Point(181, 56);
-            this.heroDamage.MinimumSize = new System.Drawing.Size(354, 38);
-            this.heroDamage.Name = "heroDamage";
-            this.heroDamage.Size = new System.Drawing.Size(354, 38);
-            this.heroDamage.TabIndex = 20;
-            // 
             // enemyDamage
             // 
             this.enemyDamage.BackColor = System.Drawing.Color.Transparent;
@@ -158,6 +136,33 @@
             this.enemyHealth.Name = "enemyHealth";
             this.enemyHealth.Size = new System.Drawing.Size(354, 38);
             this.enemyHealth.TabIndex = 21;
+            // 
+            // heroDamage
+            // 
+            this.heroDamage.BackColor = System.Drawing.Color.Transparent;
+            this.heroDamage.Location = new System.Drawing.Point(181, 56);
+            this.heroDamage.MinimumSize = new System.Drawing.Size(354, 38);
+            this.heroDamage.Name = "heroDamage";
+            this.heroDamage.Size = new System.Drawing.Size(354, 38);
+            this.heroDamage.TabIndex = 20;
+            // 
+            // heroProtect
+            // 
+            this.heroProtect.BackColor = System.Drawing.Color.Transparent;
+            this.heroProtect.Location = new System.Drawing.Point(181, 100);
+            this.heroProtect.MinimumSize = new System.Drawing.Size(354, 38);
+            this.heroProtect.Name = "heroProtect";
+            this.heroProtect.Size = new System.Drawing.Size(354, 38);
+            this.heroProtect.TabIndex = 19;
+            // 
+            // heroHealth
+            // 
+            this.heroHealth.BackColor = System.Drawing.Color.Transparent;
+            this.heroHealth.Location = new System.Drawing.Point(181, 12);
+            this.heroHealth.MinimumSize = new System.Drawing.Size(354, 38);
+            this.heroHealth.Name = "heroHealth";
+            this.heroHealth.Size = new System.Drawing.Size(354, 38);
+            this.heroHealth.TabIndex = 18;
             // 
             // FightForm
             // 

@@ -55,6 +55,10 @@ namespace NewGame
                 var form = new FightForm();
                 form.InitializeFight(hero, enemy);
                 form.ShowDialog();
+                if(hero.IsAlive)
+                {
+                    //перерисовка карты
+                }
             };
 
             uiQuest1.ShowDialog(1);
