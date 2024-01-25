@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UIMove));
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnTalk = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.btnFight = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -38,20 +38,23 @@
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button5
+            // btnTalk
             // 
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(5, 141);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(89, 40);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Говорить";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnTalk.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTalk.BackgroundImage")));
+            this.btnTalk.Enabled = false;
+            this.btnTalk.ForeColor = System.Drawing.Color.White;
+            this.btnTalk.Location = new System.Drawing.Point(5, 141);
+            this.btnTalk.Name = "btnTalk";
+            this.btnTalk.Size = new System.Drawing.Size(89, 40);
+            this.btnTalk.TabIndex = 6;
+            this.btnTalk.Text = "Говорить";
+            this.btnTalk.UseVisualStyleBackColor = true;
+            this.btnTalk.Click += new System.EventHandler(this.btnTalk_Click);
             // 
             // button6
             // 
             this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
+            this.button6.Enabled = false;
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Location = new System.Drawing.Point(98, 141);
             this.button6.Name = "button6";
@@ -151,7 +154,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnFight);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnTalk);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -168,7 +171,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnTalk;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnFight;
     }

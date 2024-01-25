@@ -35,6 +35,7 @@ namespace NewGame.UI
 
         public Action<Extension.TypeMove> Goto { get; set; }
         public Action<Extension.NpcTalk> Talk { get; set; }
+        public Action<int> Dialog { get; set; }
         public Action<Extension.Lut> GetPredmet { get; set; }
         public Action<IHero> GotoFight { get; set; }
 
@@ -50,8 +51,16 @@ namespace NewGame.UI
             _enemy = enemy;
         }
 
+        int _dialog=0;
+        public void DialogMenu(int number)
+        {
+            btnTalk.Enabled = true;
+            _dialog = number;
+        }
+
         private async void StepHero(object sender, EventArgs e)
         {
+            btnTalk.Enabled = false;
             btnFight.Enabled = false;
 
             (sender as Button).Enabled = false;
@@ -64,9 +73,16 @@ namespace NewGame.UI
             (sender as Button).Enabled = true;
         }
 
+
+
         private void btnFight_Click(object sender, EventArgs e)
         {
-            GotoFight(_enemy);
+            GotoFight?.Invoke(_enemy);
+        }
+
+        private void btnTalk_Click(object sender, EventArgs e)
+        {
+            Dialog?.Invoke(_dialog);
         }
     }
 }

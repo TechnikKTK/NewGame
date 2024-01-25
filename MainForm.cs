@@ -45,7 +45,8 @@ namespace NewGame
         {
             uiMap1.Initialize();
             uiMap1.SetEvent(uiMove1.SetCollision);
-            uiMap1.GetDialog += uiQuest1.ShowDialog;
+            uiMap1.GetDialog += uiMove1.DialogMenu;
+            uiMove1.Dialog += uiQuest1.ShowDialog;
             uiMap1.GetEnemy += uiQuest1.ShowEnemy;
             uiMap1.GetEnemy += uiMove1.FightMenu;
             uiMove1.Goto += uiMap1.MoveHero;
